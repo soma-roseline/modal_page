@@ -34,6 +34,11 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+
+  }
+
+  .modal-text{
+    padding-left: 30px;
   }
   
   .modal input {
@@ -56,6 +61,10 @@
     height: 250px;
     padding-left: 0px;
   }
+
+  .btn-group{
+    text-align: center;
+  }
   
   button {
     cursor: pointer;
@@ -73,6 +82,7 @@
     border-radius: 5px;
     text-align: center;
     font-size: 1em;
+    
   }
   
   .btn-open {
@@ -83,9 +93,9 @@
   .btn-close {
     transform: translate(10px, -20px);
     padding: 0.5rem 0.7rem;
+    margin-top: 10px;
     background: #eee;
     border-radius: 50%;
-    
   }
 
   .overlay {
